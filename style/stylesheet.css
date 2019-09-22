@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
+body {
+  margin: 5;
+  color: white;
+  background-color: black;
+  font-family: 'Press Start 2P', cursive;
+		overflow-wrap: break-word;
+      
+
+}
+
+img { max-width: 100%
+      height: auto;
+      width: auto;
+}
+
+textarea {
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 4px;
+    color: white;
+    background-color: #222;
+    resize: none;
+    width: 100%;
+}
+
+input[type=text] {
+    background-color: #222;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+}
+
+input[type=file] {
+    background-color: #222;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+select {
+    background-color: #222;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+
+/* Style the header */
+.header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.column a {
+   color: #f2f2f2;
+   text-decoration: none;
+}
+
+.column a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Left and right column */
+.column.side {
+    width: 10%;
+    background-color: #333;
+    height: 100%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 65%;
+    padding: 15px;
+    line-height: 1.8;
+}
+
+a {
+   color: #f2f2f2;
+   text-decoration: none;
+}
+
+a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.tooltip
+{
+  text-decoration:none;
+  position:relative;
+  cursor: default;
+}
+ 
+ 
+.tooltip span
+{
+  display:none;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  color:white;
+  background:black; 
+  cursor: default;
+}
+ 
+ 
+.tooltip span img
+{
+  float:left;
+  margin:0px 8px 8px 0;
+  max-width:300px;
+  max-height:300px;
+}
+ 
+ 
+.tooltip:hover span
+{
+  display:block;
+  position:absolute;
+  top:-150;
+  left:0;
+  z-index:1000;
+  width:auto;
+  max-width:1000;
+  min-height:128px;
+  border:1px solid white;
+  margin-top:12px;
+  margin-left:32px;
+  overflow:hidden;
+  padding:8px;
+  cursor: default;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side {
+     height: auto;
+}
+    .column.side, .column.middle {
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+}
+
+* {
+  .border-radius(0) !important;
+}
+
+#field {
+    margin-bottom:20px;
+}
+
+table#gallery{
+
+  table-layout: fixed;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+
+table#innergallery{
+
+  table-layout: fixed;
+  max-width: 150px;
+  overflow-wrap: break-word;
+  
+}
+
+table#innergallery td {
+  font-size:10;
+  overflow-wrap: break-all;
+}
+
