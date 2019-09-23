@@ -1,4 +1,4 @@
-Art DB.
+# Art DB.
 
 This is a project that I solo developed for Database Systems course at NDSU during the Fall 2018 semester.
 
